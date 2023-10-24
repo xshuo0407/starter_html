@@ -1,0 +1,160 @@
+.skip a{
+    position:absolute;
+    top: -10000px;
+    z-index: 1000;
+    font-size: 1.6em;
+    border: none;
+  }
+
+
+#main > div > h1, #main > div > h2, #main > div > h3{
+    text-align: center; 
+}
+#main > div > img:first-of-type {
+    display: block;
+    width: 100%;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 1rem; 
+    border: 1px solid rgb(214, 193, 168);
+}
+
+.photo-gallery img {
+    grid-template-columns: repeat(1, 1fr);
+    width: 88%;
+    height: auto;
+    border: solid rgb(214, 193, 168);
+}
+
+
+
+
+#main {
+    display: grid;
+    grid-template-columns: 1fr; 
+    justify-items: center;
+    gap: 10px;
+    align-items: center;
+    padding: 20px; 
+}
+
+@media (max-width: 375px) {
+    div h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 10px 0; 
+    }
+}
+
+  
+div img {
+    max-width: 70%;
+    height: auto;
+    display: block; 
+}
+
+body {
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+
+
+
+ul a {
+    list-style-type: none;
+    padding: 0;
+    background-color: burlywood;
+    /* 背景颜色，上面的栏 */
+    overflow: hidden;
+}
+
+
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #0ba4ea;
+}
+
+main {
+    padding: 20px;
+}
+
+
+  
+h1 {
+    color: #ef0658;
+}
+
+
+h2{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 10px;
+    color: #666;
+    line-height: 1.5;
+}
+
+div {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px;
+}
+
+ul li {
+    display: block;
+    margin-bottom: 5px;
+}
+@media (prefers-reduced-motion: reduce) {
+    img[src$=".gif"] {
+        display: none;
+    }
+ }
+
+
+
+h3 {
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+ul {
+    list-style-type: disc;
+    padding-left: 8px;
+}
+
+ul li {
+    background-color: transparent;
+}
+
+
+.skip a:focus {
+    top: 10px;
+}
+
+
+
